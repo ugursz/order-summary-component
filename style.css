@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 3rem;
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  overflow: hidden;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.card-content {
+  text-align: center;
+  margin-top: 1rem;
+}
+.card-content-heading {
+  font-size: 2.4rem;
+}
+
+.card-content-text {
+  line-height: 1.4;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: hsl(224, 23%, 55%);
+}
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding: 1rem 2rem;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+}
+.plan a {
+  font-size: 1.5rem;
+  color: hsl(245, 75%, 52%);
+}
+.plan a:hover {
+  text-decoration: none;
+}
+
+.annual-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.plan-2 {
+  margin-left: 1rem;
+}
+
+.plan-2 h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-2 p {
+  font-size: 1.6rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttons a {
+  text-decoration: none;
+  display: block;
+  width: 300px;
+  padding: 1rem 3rem;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 1.6rem;
+}
+.buttons a:first-child {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.buttons a:first-child:active {
+  background-color: hsla(245, 75%, 52%, 0.7);
+}
